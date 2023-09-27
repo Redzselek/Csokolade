@@ -7,18 +7,19 @@
     <title>Csokoládé</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <div class="container">
+    <div class="animate__animated animate__fadeInBottomLeft container">
         <div class="row">
             <div class="col-md-2">
-                <button class="btn btn-secondary" onclick="Lapoz(0)">Előző</button>
+                <button class="gomb btn btn-secondary" onclick="Lapoz(-1)">Előző</button>
             </div>
             <div id="kep" class="text-center col-md-8">
 
             </div>
             <div class="col-md-2">
-                <button class="btn btn-primary" onclick="Lapoz(1)">Következő</button>
+                <button class="gomb btn btn-primary" onclick="Lapoz(1)">Következő</button>
             </div>
         </div>
     </div>

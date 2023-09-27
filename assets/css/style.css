@@ -1,5 +1,17 @@
+body
+{
+    background-color: #202020;
+    color: white;
+}
+
 .orszag
 {
     font-style: italic;
     margin-top: 2em;
 }
+
+#kep{
+    z-index: -10;
+}
+
+
